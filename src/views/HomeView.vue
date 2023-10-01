@@ -19,7 +19,7 @@ import TheWelcome from '../components/TheWelcome.vue'
         <div class="inside-box">
           <div class="upper-box">
             <div class="left-upper-box">
-              <img src="https://via.placeholder.com/300x300" alt="" />
+              <img src="../assets/jo-ganteng.svg" alt="" />
               <p>
                 JONATHAN ADITHYA BASWARA <br />
                 5027221062 <br />
@@ -28,7 +28,7 @@ import TheWelcome from '../components/TheWelcome.vue'
               </p>
             </div>
             <div class="right-upper-box">
-              <img src="https://via.placeholder.com/300x300" alt="" />
+              <img src="../assets/dhani.svg" alt="" />
               <p>
                 RIZKI RAMADHANI <br />
                 5027221013 <br />
@@ -39,19 +39,19 @@ import TheWelcome from '../components/TheWelcome.vue'
           </div>
           <div class="below-box">
             <div class="left-upper-box">
-              <img src="https://via.placeholder.com/300x300" alt="" />
+              <img src="../assets/clara.svg" alt="" />
               <p>
-                JONATHAN ADITHYA BASWARA <br />
-                5027221062 <br />
+                Clara Valentina <br />
+                5027221016 <br />
                 TEKNOLOGI INFORMASI <br />
                 2022
               </p>
             </div>
             <div class="right-upper-box">
-              <img src="https://via.placeholder.com/300x300" alt="" />
+              <img src="../assets/heze.svg" alt="" />
               <p>
-                RIZKI RAMADHANI <br />
-                5027221013 <br />
+                Jody Hezekiah T.S. <br />
+                5027221050 <br />
                 TEKNOLOGI INFORMASI <br />
                 2022
               </p>
@@ -62,31 +62,31 @@ import TheWelcome from '../components/TheWelcome.vue'
     </section>
     <section class="cards-collide">
       <div class="card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/jo-ganteng.svg" alt="" />
         <p>
           JONATHAN ADITHYA BASWARA <br />
           5027221062 <br />
         </p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/dhani.svg " alt="" />
         <p>
-          JONATHAN ADITHYA BASWARA <br />
-          5027221062 <br />
+          Rizki Ramadhani <br />
+          5027221013 <br />
         </p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/clara.svg" alt="" />
         <p>
-          JONATHAN ADITHYA BASWARA <br />
-          5027221062 <br />
+          Clara Valentina <br />
+          5027221016 <br />
         </p>
       </div>
       <div class="card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/heze.svg" alt="" />
         <p>
-          JONATHAN ADITHYA BASWARA <br />
-          5027221062 <br />
+          Jody Hezekiah T.S. <br />
+          5027221050 <br />
         </p>
       </div>
     </section>
@@ -99,14 +99,14 @@ import TheWelcome from '../components/TheWelcome.vue'
         </p>
       </div>
       <div class="content-card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/Journalism.svg" alt="" />
         <p>
           Journalism is one of our projects that takes place during basic media
           school activities. Here we try to be like camera people and reporters.
         </p>
       </div>
       <div class="content-card-rev">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/writing.svg" alt="" />
         <p>
           News writing techniques are one of our projects during basic media
           school activities. Here we try to write news starting from angel news,
@@ -114,7 +114,7 @@ import TheWelcome from '../components/TheWelcome.vue'
         </p>
       </div>
       <div class="content-card">
-        <img src="https://via.placeholder.com/300x300" alt="" />
+        <img src="../assets/design.svg" alt="" />
         <p>
           virtual background screens and posters are one of our projects during
           the lecture period. Here we design a virtual background screen
@@ -136,7 +136,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 }
 
 body {
-  background-color: #0a4d68;
+  background-color: #0e2954;
   width: 100%;
 }
 
@@ -144,6 +144,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("../assets/background.svg");
 }
 
 .hero .effect {
